@@ -50,6 +50,11 @@
                 $(sImg2).toggleClass('active');
         };
     });
+    $(window.document).on("contextmenu",function(){
+        if(event.target.nodeName == "IMG"){
+            return false;
+        }
+    })
 </script>
     
 </body>
