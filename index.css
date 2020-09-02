@@ -8,6 +8,7 @@ html,body{
     overflow-x: hidden;
     
 }
+body{ -webkit-touch-callout:none;}
 
 .lala{
     width:100%;
