@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ฅ^•ﻌ•^ฅ</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="lala">
+    <img src="img/main.png" alt="">
+</div>
+         
+<article class="mainimg">
+    <div class="sample">
+       <h1>0차 완성 꾹꾹이</h1>
+       <div class="img_all">
+        <img src="img/1.gif" alt="">
+        <img src="img/2.gif" alt="">
+        <img src="img/3.gif" alt="">
+        <img src="img/4.gif" alt="">
+        <img src="img/5.gif" alt="">
+        <img src="img/6.gif" alt="">
+        </div>
+    </div>
+    <div class="sample1">
+       <h1>1차 완성 꾹꾹이</h1>
+       <div class="img_all">
+        <img src="img/7.gif" alt="">
+        <img src="img/8.gif" alt="">
+        <img src="img/9.gif" alt="">
+        <img src="img/10.gif" alt="">
+        </div>
+    </div>
+</article>
+   
+<script>
+    $(function() {        
+        var sImg = document.querySelectorAll('.sample .img_all')
+        var sImg2 = document.querySelectorAll('.sample1 .img_all')
+            $('.sample h1').on('click',Fun);
+            $('.sample1 h1').on('click',Fun2);
+                               
+            function Fun(){
+                $(sImg).toggleClass('active');
+        };
+        function Fun2(){
+                $(sImg2).toggleClass('active');
+        };
+    });
+</script>
+    
+</body>
+</html>

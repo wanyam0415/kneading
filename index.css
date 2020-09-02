@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Gothic+A1&display=swap');
+
+html,body{
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+.lala{
+    width:100%;
+    margin: 0 auto;
+    padding:2% 0;
+    text-align: center;
+}
+.lala img{width:15%;}
+
+.mainimg{
+    width:100%;
+    margin:0 auto;
+    padding:3% 0;
+}
+.mainimg .sample{
+    width:90%;
+    margin: 0 auto;
+    text-align:center;
+}
+.mainimg .sample h1{
+    width:20%;
+    margin:0 auto;
+    text-align: center;
+    background:#28849A;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Gaegu', cursive;
+    padding: 15px 0;
+    margin-bottom:2%;
+}
+.mainimg .sample .img_all{
+    display:none;
+    background:#BACED3;
+    padding:3% 0;
+}
+.mainimg .sample .img_all.active{
+    display:block;
+}
+.mainimg .sample .img_all img{
+    width:25%;
+}
+
+.mainimg .sample1{
+    width:90%;
+    margin: 0 auto;
+    text-align:center;
+}
+.mainimg .sample1 h1{
+    width:20%;
+    margin:0 auto;
+    text-align: center;
+    background:#28849A;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Gaegu', cursive;
+    padding: 15px 0;
+    margin-bottom:2%;
+    margin-top:2%;
+}
+.mainimg .sample1 .img_all{
+    display:none;
+    background:#BACED3;
+    padding:3% 0;
+}
+.mainimg .sample1 .img_all.active{
+    display:block;
+}
+.mainimg .sample1 .img_all img{
+    width:25%;
+}
