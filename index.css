@@ -111,3 +111,34 @@ body{ -webkit-touch-callout:none;}
     width:25%;
     padding:15px;
 }
+
+
+
+.mainimg .sample3{
+    width:90%;
+    margin: 0 auto;
+    text-align:center;
+}
+.mainimg .sample3 h1{
+    width:20%;
+    display:block;
+    margin:2% auto;
+    text-align: center;
+    background:#28849A;
+    color:#fff;
+    font-weight: 300;
+    font-family: 'Gaegu', cursive;
+    padding: 15px 0;
+}
+.mainimg .sample3 .img_all{
+    display:none;
+    background:#BACED3;
+    padding:3% 0;
+}
+.mainimg .sample3 .img_all.active{
+    display:block;
+}
+.mainimg .sample3 .img_all img{
+    width:25%;
+    padding:15px;
+}

@@ -92,6 +92,19 @@
         <img src="img/63.gif" alt="">
         </div>
     </div>
+    <div class="sample3">
+       <h1>3차 완성 꾹꾹이</h1>
+       <div class="img_all">
+        <img src="img/64.gif" alt="">
+        <img src="img/65.gif" alt="">
+        <img src="img/66.gif" alt="">
+        <img src="img/67.gif" alt="">
+        <img src="img/68.gif" alt="">
+        <img src="img/69.gif" alt="">
+        <img src="img/70.gif" alt="">
+        <img src="img/71.gif" alt="">
+        </div>
+    </div>
 </article>
    
 <script>
@@ -99,9 +112,11 @@
         var sImg = document.querySelectorAll('.sample .img_all')
         var sImg2 = document.querySelectorAll('.sample1 .img_all')
         var sImg3 = document.querySelectorAll('.sample2 .img_all')
+        var sImg4 = document.querySelectorAll('.sample3 .img_all')
             $('.sample h1').on('click',Fun);
             $('.sample1 h1').on('click',Fun2);
         $('.sample2 h1').on('click',Fun3);
+        $('.sample3 h1').on('click',Fun4);
                                
             function Fun(){
                 $(sImg).toggleClass('active');
@@ -111,6 +126,9 @@
         };
         function Fun3(){
                 $(sImg3).toggleClass('active');
+        };
+        function Fun4(){
+                $(sImg4).toggleClass('active');
         };
     });
     $(window.document).on("contextmenu",function(){
